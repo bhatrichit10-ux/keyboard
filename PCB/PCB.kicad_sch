@@ -1801,12 +1801,6 @@
 		(uuid "c824d8fc-73ab-43eb-94d8-699ab56e7644")
 	)
 	(junction
-		(at 175.26 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c85e9641-bcdb-4f35-8c6d-99b31c46d327")
-	)
-	(junction
 		(at 146.05 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1859,6 +1853,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0552191-eda4-4b07-ad12-10ea64b69c2d")
+	)
+	(junction
+		(at 203.2 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2695e9e-587a-4269-a3cc-018944fc2638")
 	)
 	(junction
 		(at 199.39 54.61)
@@ -2264,6 +2264,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 62.23) (xy 203.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5629b2f2-5249-4887-a5e7-399f8233dfbb")
+	)
+	(wire
+		(pts
 			(xy 48.26 87.63) (xy 62.23 87.63)
 		)
 		(stroke
@@ -2381,16 +2391,6 @@
 			(type default)
 		)
 		(uuid "7f33b09a-006a-4e41-acd9-fe9fe3438af6")
-	)
-	(wire
-		(pts
-			(xy 175.26 62.23) (xy 175.26 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b59d644-ec54-4d0f-9c1e-ae2b585e0c3f")
 	)
 	(wire
 		(pts
@@ -2834,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 87.63) (xy 185.42 87.63)
+			(xy 172.72 87.63) (xy 213.36 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2984,7 +2984,7 @@
 			)
 			(justify left)
 		)
-		(uuid "28258e4d-c45e-4dd8-939d-722328259e66")
+		(uuid "28258e4d-c45e-4dd8-939d-722328259e67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.6066 54.61 0)
 			(effects
@@ -3006,7 +3006,7 @@
 			)
 			(justify left)
 		)
-		(uuid "28258e4d-c45e-4dd8-939d-722328259e66")
+		(uuid "28258e4d-c45e-4dd8-939d-722328259e68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 221.6066 69.85 0)
 			(effects
@@ -3020,7 +3020,7 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 185.42 87.63 0)
+		(at 213.36 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3028,9 +3028,9 @@
 			)
 			(justify left)
 		)
-		(uuid "28258e4d-c45e-4dd8-939d-722328259e66")
+		(uuid "28258e4d-c45e-4dd8-939d-722328259e69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.6666 87.63 0)
+			(at 221.6066 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,7 +3050,7 @@
 			)
 			(justify left)
 		)
-		(uuid "28258e4d-c45e-4dd8-939d-722328259e66")
+		(uuid "28258e4d-c45e-4dd8-939d-722328259e6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.3266 105.41 0)
 			(effects
@@ -3058,94 +3058,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW0"
-		(shape input)
-		(at 100.33 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4acb08ca-8559-4d92-91c2-a93774c381b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.0834 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW1"
-		(shape input)
-		(at 100.33 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4acb08ca-8559-4d92-91c2-a93774c381b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.0834 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW3"
-		(shape input)
-		(at 100.33 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4acb08ca-8559-4d92-91c2-a93774c381b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.0834 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW2"
-		(shape input)
-		(at 100.33 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4acb08ca-8559-4d92-91c2-a93774c381b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.0834 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3172,68 +3084,90 @@
 			)
 		)
 	)
-	(global_label "COL0"
+	(global_label "ROW3"
 		(shape input)
-		(at 146.05 140.97 0)
+		(at 100.33 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
+		(uuid "4acb08ca-8559-4d92-91c2-a93774c381b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.8733 140.97 0)
+			(at 92.0834 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "COL1"
+	(global_label "ROW2"
 		(shape input)
-		(at 146.05 143.51 0)
+		(at 100.33 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
+		(uuid "4acb08ca-8559-4d92-91c2-a93774c381b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.8733 143.51 0)
+			(at 92.0834 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "COL2"
+	(global_label "ROW1"
 		(shape input)
-		(at 146.05 146.05 0)
+		(at 100.33 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
+		(uuid "4acb08ca-8559-4d92-91c2-a93774c381b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.8733 146.05 0)
+			(at 92.0834 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 100.33 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4acb08ca-8559-4d92-91c2-a93774c381b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.0834 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3260,50 +3194,6 @@
 			)
 		)
 	)
-	(global_label "COL7"
-		(shape input)
-		(at 100.33 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.5067 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL11"
-		(shape input)
-		(at 100.33 148.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.2972 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL9"
 		(shape input)
 		(at 100.33 143.51 180)
@@ -3314,7 +3204,7 @@
 			)
 			(justify right)
 		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e615")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.5067 143.51 0)
 			(effects
@@ -3326,9 +3216,9 @@
 			)
 		)
 	)
-	(global_label "COL10"
+	(global_label "COL7"
 		(shape input)
-		(at 100.33 146.05 180)
+		(at 100.33 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3336,102 +3226,14 @@
 			)
 			(justify right)
 		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e616")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.2972 146.05 0)
+			(at 92.5067 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL12"
-		(shape input)
-		(at 100.33 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.2972 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL13"
-		(shape input)
-		(at 100.33 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.2972 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL3"
-		(shape input)
-		(at 146.05 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.8733 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL4"
-		(shape input)
-		(at 146.05 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.8733 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3446,7 +3248,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e617")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.8733 153.67 0)
 			(effects
@@ -3468,7 +3270,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e614")
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e618")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.8733 156.21 0)
 			(effects
@@ -3476,6 +3278,204 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 146.05 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e619")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.8733 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 146.05 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e61a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.8733 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 146.05 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e61b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.8733 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 146.05 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e61c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.8733 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 146.05 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e61d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.8733 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL10"
+		(shape input)
+		(at 100.33 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e61e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.2972 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL11"
+		(shape input)
+		(at 100.33 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e61f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.2972 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL12"
+		(shape input)
+		(at 100.33 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e620")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.2972 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL13"
+		(shape input)
+		(at 100.33 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2b6c87f-cb19-4d1c-9a26-50be93f6e621")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.2972 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3512,9 +3512,31 @@
 			)
 			(justify left)
 		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
+		(uuid "d888f557-ac41-469b-897b-51fecda723e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.23 22.7172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL9"
+		(shape input)
+		(at 149.86 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d888f557-ac41-469b-897b-51fecda723e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 23.9267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3556,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
+		(uuid "d888f557-ac41-469b-897b-51fecda723e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 175.26 22.7172 90)
 			(effects
@@ -3556,53 +3578,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
+		(uuid "d888f557-ac41-469b-897b-51fecda723e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.56 22.7172 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL9"
-		(shape input)
-		(at 149.86 31.75 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 23.9267 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL6"
-		(shape input)
-		(at 106.68 31.75 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 23.9267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3600,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
+		(uuid "d888f557-ac41-469b-897b-51fecda723e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 23.9267 90)
 			(effects
@@ -3644,9 +3622,31 @@
 			)
 			(justify left)
 		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
+		(uuid "d888f557-ac41-469b-897b-51fecda723e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 135.89 23.9267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 106.68 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d888f557-ac41-469b-897b-51fecda723e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 23.9267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,31 +3666,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
+		(uuid "d888f557-ac41-469b-897b-51fecda723e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.71 23.9267 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL0"
-		(shape input)
-		(at 22.86 31.75 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.86 23.9267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3688,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
+		(uuid "d888f557-ac41-469b-897b-51fecda723e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.1 23.9267 90)
 			(effects
@@ -3732,9 +3710,31 @@
 			)
 			(justify left)
 		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
+		(uuid "d888f557-ac41-469b-897b-51fecda723e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 52.07 23.9267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 22.86 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d888f557-ac41-469b-897b-51fecda723ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 23.9267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3754,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
+		(uuid "d888f557-ac41-469b-897b-51fecda723eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.04 23.9267 90)
 			(effects
@@ -3776,7 +3776,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d888f557-ac41-469b-897b-51fecda723df")
+		(uuid "d888f557-ac41-469b-897b-51fecda723ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.74 23.9267 90)
 			(effects
@@ -3814,7 +3814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 154.94 26.67 0)
 			(effects
 				(font
@@ -3884,7 +3884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 185.42 50.8 0)
 			(effects
 				(font
@@ -3970,7 +3970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 97.79 57.15 0)
 			(effects
 				(font
@@ -4040,7 +4040,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 160.02 83.82 0)
 			(effects
 				(font
@@ -4128,7 +4128,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 62.23 66.04 0)
 			(effects
 				(font
@@ -4214,7 +4214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 97.79 92.71 0)
 			(effects
 				(font
@@ -4284,7 +4284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 48.26 50.8 0)
 			(effects
 				(font
@@ -4370,7 +4370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 180.34 41.91 0)
 			(effects
 				(font
@@ -4438,7 +4438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 57.15 26.67 0)
 			(effects
 				(font
@@ -4506,7 +4506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 127 26.67 0)
 			(effects
 				(font
@@ -4574,7 +4574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 208.28 41.91 0)
 			(effects
 				(font
@@ -4642,7 +4642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 111.76 26.67 0)
 			(effects
 				(font
@@ -4710,7 +4710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 97.79 41.91 0)
 			(effects
 				(font
@@ -4780,7 +4780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 172.72 66.04 0)
 			(effects
 				(font
@@ -4866,7 +4866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 111.76 41.91 0)
 			(effects
 				(font
@@ -4936,7 +4936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 199.39 35.56 0)
 			(effects
 				(font
@@ -5022,7 +5022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 127 74.93 0)
 			(effects
 				(font
@@ -5090,7 +5090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 83.82 92.71 0)
 			(effects
 				(font
@@ -5158,7 +5158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 27.94 74.93 0)
 			(effects
 				(font
@@ -5228,7 +5228,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 199.39 66.04 0)
 			(effects
 				(font
@@ -5314,7 +5314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 140.97 41.91 0)
 			(effects
 				(font
@@ -5384,7 +5384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 213.36 66.04 0)
 			(effects
 				(font
@@ -5470,7 +5470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 43.18 26.67 0)
 			(effects
 				(font
@@ -5538,7 +5538,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.25u_PCB"
 			(at 167.64 74.93 0)
 			(effects
 				(font
@@ -5608,7 +5608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 116.84 101.6 0)
 			(effects
 				(font
@@ -5694,7 +5694,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.64 26.67 0)
 			(effects
 				(font
@@ -5762,7 +5762,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 43.18 92.71 0)
 			(effects
 				(font
@@ -5830,7 +5830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 97.79 74.93 0)
 			(effects
 				(font
@@ -5898,7 +5898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 194.31 41.91 0)
 			(effects
 				(font
@@ -5968,7 +5968,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 172.72 35.56 0)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 160.02 50.8 0)
 			(effects
 				(font
@@ -6142,7 +6142,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 127 92.71 0)
 			(effects
 				(font
@@ -6212,7 +6212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -6298,7 +6298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 111.76 92.71 0)
 			(effects
 				(font
@@ -6366,7 +6366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.64 57.15 0)
 			(effects
 				(font
@@ -6436,7 +6436,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -6524,7 +6524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 88.9 35.56 0)
 			(effects
 				(font
@@ -6612,7 +6612,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -6884,7 +6884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 146.05 50.8 0)
 			(effects
 				(font
@@ -6970,7 +6970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 57.15 41.91 0)
 			(effects
 				(font
@@ -7040,7 +7040,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 146.05 83.82 0)
 			(effects
 				(font
@@ -7126,7 +7126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 71.12 26.67 0)
 			(effects
 				(font
@@ -7194,7 +7194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 57.15 74.93 0)
 			(effects
 				(font
@@ -7262,7 +7262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_6.25u_PCB"
 			(at 57.15 92.71 0)
 			(effects
 				(font
@@ -7330,7 +7330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 140.97 74.93 0)
 			(effects
 				(font
@@ -7400,7 +7400,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 62.23 83.82 0)
 			(effects
 				(font
@@ -7488,7 +7488,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 48.26 83.82 0)
 			(effects
 				(font
@@ -7576,7 +7576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 116.84 35.56 0)
 			(effects
 				(font
@@ -7664,7 +7664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 48.26 101.6 0)
 			(effects
 				(font
@@ -7752,7 +7752,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 132.08 66.04 0)
 			(effects
 				(font
@@ -7838,7 +7838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 83.82 26.67 0)
 			(effects
 				(font
@@ -7908,7 +7908,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 102.87 66.04 0)
 			(effects
 				(font
@@ -7994,7 +7994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 27.94 41.91 0)
 			(effects
 				(font
@@ -8062,7 +8062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 154.94 57.15 0)
 			(effects
 				(font
@@ -8132,7 +8132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -8220,7 +8220,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -8308,7 +8308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 76.2 101.6 0)
 			(effects
 				(font
@@ -8394,7 +8394,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 111.76 57.15 0)
 			(effects
 				(font
@@ -8464,7 +8464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 62.23 35.56 0)
 			(effects
 				(font
@@ -8550,7 +8550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 127 57.15 0)
 			(effects
 				(font
@@ -8620,7 +8620,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 88.9 83.82 0)
 			(effects
 				(font
@@ -8706,7 +8706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 43.18 41.91 0)
 			(effects
 				(font
@@ -8774,7 +8774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 194.31 26.67 0)
 			(effects
 				(font
@@ -8842,7 +8842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 154.94 74.93 0)
 			(effects
 				(font
@@ -8910,7 +8910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 127 41.91 0)
 			(effects
 				(font
@@ -8980,7 +8980,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 102.87 83.82 0)
 			(effects
 				(font
@@ -9048,10 +9048,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9cb41099-ff68-4679-85c7-14718cabedb3")
 		(property "Reference" "D53"
-			(at 175.26 82.5499 90)
+			(at 203.2 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +9059,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 175.26 85.0899 90)
+			(at 203.2 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,7 +9067,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 172.72 83.82 0)
 			(effects
 				(font
@@ -9156,7 +9155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 62.23 101.6 0)
 			(effects
 				(font
@@ -9242,7 +9241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 27.94 92.71 0)
 			(effects
 				(font
@@ -9312,7 +9311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 132.08 83.82 0)
 			(effects
 				(font
@@ -9400,7 +9399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 76.2 83.82 0)
 			(effects
 				(font
@@ -9488,7 +9487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 172.72 50.8 0)
 			(effects
 				(font
@@ -9574,7 +9573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 97.79 26.67 0)
 			(effects
 				(font
@@ -9642,7 +9641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 43.18 57.15 0)
 			(effects
 				(font
@@ -9712,7 +9711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 146.05 35.56 0)
 			(effects
 				(font
@@ -9800,7 +9799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 102.87 101.6 0)
 			(effects
 				(font
@@ -9886,7 +9885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 27.94 26.67 0)
 			(effects
 				(font
@@ -9954,7 +9953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 83.82 57.15 0)
 			(effects
 				(font
@@ -10024,7 +10023,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 33.02 101.6 0)
 			(effects
 				(font
@@ -10110,7 +10109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.64 41.91 0)
 			(effects
 				(font
@@ -10178,7 +10177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 57.15 57.15 0)
 			(effects
 				(font
@@ -10222,7 +10221,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 180.34 80.01 0)
+		(at 208.28 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10231,7 +10230,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae73ed38-e02f-49b9-9011-ebe4727bf6b7")
 		(property "Reference" "SW54"
-			(at 180.34 72.39 0)
+			(at 208.28 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,15 +10238,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 180.34 74.93 0)
+			(at 208.28 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 180.34 74.93 0)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 208.28 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10256,7 +10255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 74.93 0)
+			(at 208.28 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,7 +10264,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 180.34 80.01 0)
+			(at 208.28 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10314,7 +10313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 71.12 74.93 0)
 			(effects
 				(font
@@ -10384,7 +10383,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 199.39 50.8 0)
 			(effects
 				(font
@@ -10470,7 +10469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB"
 			(at 194.31 57.15 0)
 			(effects
 				(font
@@ -10540,7 +10539,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 88.9 50.8 0)
 			(effects
 				(font
@@ -10626,7 +10625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 83.82 41.91 0)
 			(effects
 				(font
@@ -10696,7 +10695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 185.42 66.04 0)
 			(effects
 				(font
@@ -10784,7 +10783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 33.02 50.8 0)
 			(effects
 				(font
@@ -10872,7 +10871,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 146.05 66.04 0)
 			(effects
 				(font
@@ -10960,7 +10959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -11048,7 +11047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 76.2 35.56 0)
 			(effects
 				(font
@@ -11136,7 +11135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 48.26 66.04 0)
 			(effects
 				(font
@@ -11222,7 +11221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 43.18 74.93 0)
 			(effects
 				(font
@@ -11290,7 +11289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 71.12 41.91 0)
 			(effects
 				(font
@@ -11360,7 +11359,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 213.36 35.56 0)
 			(effects
 				(font
@@ -11422,7 +11421,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 185.42 83.82 90)
+		(at 213.36 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11431,7 +11430,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1c8eb6c-dd24-4a49-9e9d-fa873cd13d60")
 		(property "Reference" "D54"
-			(at 187.96 82.5499 90)
+			(at 215.9 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11440,7 +11439,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 187.96 85.0899 90)
+			(at 215.9 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11448,8 +11447,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 185.42 83.82 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 213.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11458,7 +11457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 83.82 0)
+			(at 213.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11467,7 +11466,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 185.42 83.82 0)
+			(at 213.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11476,7 +11475,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 185.42 83.82 0)
+			(at 213.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11485,7 +11484,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 185.42 83.82 0)
+			(at 213.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11534,7 +11533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.25u_PCB"
 			(at 208.28 57.15 0)
 			(effects
 				(font
@@ -11604,7 +11603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 116.84 66.04 0)
 			(effects
 				(font
@@ -11690,7 +11689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 180.34 26.67 0)
 			(effects
 				(font
@@ -11758,7 +11757,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 71.12 92.71 0)
 			(effects
 				(font
@@ -11828,7 +11827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 48.26 35.56 0)
 			(effects
 				(font
@@ -11914,7 +11913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 140.97 26.67 0)
 			(effects
 				(font
@@ -11982,7 +11981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 111.76 74.93 0)
 			(effects
 				(font
@@ -12052,7 +12051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 102.87 50.8 0)
 			(effects
 				(font
@@ -12140,7 +12139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 76.2 66.04 0)
 			(effects
 				(font
@@ -12228,7 +12227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 76.2 50.8 0)
 			(effects
 				(font
@@ -12316,7 +12315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 185.42 35.56 0)
 			(effects
 				(font
@@ -12402,7 +12401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 83.82 74.93 0)
 			(effects
 				(font
@@ -12472,7 +12471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -12560,7 +12559,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -12648,7 +12647,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -12734,7 +12733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 180.34 57.15 0)
 			(effects
 				(font
@@ -12802,7 +12801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 140.97 57.15 0)
 			(effects
 				(font
@@ -12870,7 +12869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 154.94 41.91 0)
 			(effects
 				(font
@@ -12938,7 +12937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB"
 			(at 27.94 57.15 0)
 			(effects
 				(font
@@ -13008,7 +13007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 213.36 50.8 0)
 			(effects
 				(font
@@ -13096,7 +13095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -13184,7 +13183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -13270,7 +13269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 71.12 57.15 0)
 			(effects
 				(font
@@ -13340,7 +13339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 33.02 83.82 0)
 			(effects
 				(font
@@ -13426,7 +13425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 208.28 26.67 0)
 			(effects
 				(font
@@ -13496,7 +13495,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 62.23 50.8 0)
 			(effects
 				(font
@@ -13584,7 +13583,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 160.02 35.56 0)
 			(effects
 				(font
