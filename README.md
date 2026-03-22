@@ -20,9 +20,9 @@ A: I live in India and, Robu might be expensive at first but actually it is alot
 
 ## CAD 
 Case: <br>
-![CASE](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTIwOTU2LCJwdXIiOiJibG9iX2lkIn19--69d363998478fbed2ce953862ddcd152eb4666fb/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--0f85faa91c373105a0f317054e965c1f47e93a37/image.png)   <br>
+![CASE](https://repent.wtf/u/SpvIHM.png)   <br>
 Case with PCB: <br>
-![PCB CASE](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTIwOTU3LCJwdXIiOiJibG9iX2lkIn19--629cf35704de53d57f484bb27548f988c33a4223/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--0f85faa91c373105a0f317054e965c1f47e93a37/image.png) <br>
+![PCB CASE](https://stasis.hackclub-assets.com/images/1774181171580-535qkz.png) <br>
 
 ```
 Q: Why did i not make a top?

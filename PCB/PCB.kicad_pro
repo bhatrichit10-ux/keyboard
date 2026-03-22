@@ -505,7 +505,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../CAD/PCB.step",
+      "step": "../CAD/KBPCB.step",
       "svg": "",
       "vrml": ""
     },
