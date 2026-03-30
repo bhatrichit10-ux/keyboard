@@ -1,11 +1,3 @@
-S.NO,ITEM,Cost,Quantity,USD PRICE,T-Cost,Link,Remarks
-1,HMX Xinhai (Pack of 10),? 375.00,2,$8.33,? 750.00,https://stackskb.com/store/hmx-xinhai-pack-of-10/,Switches
-2,Akko Fairy Pro Silent Switch (45pcs),"? 1,399.00",1,$15.54,"? 1,399.00",https://stackskb.com/store/akko-fairy-pro-switch-pack-of-45/,Switches
-3,Topographic Polar Day Line Crack Side Backlit Cherry Keycaps,"? 1,599.00",1,$17.77,"? 1,599.00",https://curiositycaps.in/products/polar-day-line-crack-side-backlit-cherry-keycaps?_pos=1&_psq=crack&_ss=e&_v=1.0,Keycaps
-4,PCB,"? 4,545.00",1,$50.50,"? 4,545.00",robu.in,Robu - cheapest for me cuz shipping is like $20-$30
-5,1N5822 1W Schottky Diode,? 15.00,7,$1.16,? 105.00,https://stackskb.com/store/1n4148-through-hole-diode/,"Some extra, just in case something goes wrong"
-6,Shipping label for printing legion,900,1,$10.00,? 900.00,,
-7,,,,,? 0.00,,
-,Total,,,$106.81," ?9,613.00",,
-
-PLS NOTE , ? = INR, null, null, null, null, null, null
+version https://git-lfs.github.com/spec/v1
+oid sha256:2acfbdd4eee7b21cf76b116b002ffc2010932ef7d2c684fa11265f756db3f93c
+size 948

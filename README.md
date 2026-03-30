@@ -3,13 +3,13 @@ my own very little keyboard!
 
 ## Schematics
 Matrix: <br>
-![Matrix](https://repent.wtf/u/VP1GFo.png) <br>
+![Matrix](images/matrix.png) <br>
 Microcontroller: <br>
-![Pico](https://repent.wtf/u/tBMIN4.png) <br>
+![Pico](images/pico.png) <br>
 
 ## PCB Design
-![PCB Design](https://repent.wtf/u/hSslwY.png)
-
+![PCB Design](images/pcbd.png)
+![3D Design](images/3dv.png)
 ### PCB Checkout
 ![Pcb Checkout](images/PCB%20PRICING.png)<br>
 
@@ -19,10 +19,8 @@ A: I live in India and, Robu might be expensive at first but actually it is alot
 ```
 
 ## CAD 
-Case: <br>
-![CASE](https://repent.wtf/u/SpvIHM.png)   <br>
 Case with PCB: <br>
-![PCB CASE](https://stasis.hackclub-assets.com/images/1774181171580-535qkz.png) <br>
+![PCB CASE](images/assembly.png) <br>
 
 ```
 Q: Why did i not make a top?
