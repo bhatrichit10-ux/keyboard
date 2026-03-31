@@ -1,6 +1,16 @@
 # keyboard
 my own very little keyboard!
 
+i think i need a new keyboard, so whynot make a new one. hehehe
+
+Well, its my first ever keyboard after i made my micropad. (Using qmk for first time aswell)
+## Features
+- 60% keyboard - 60 keys
+- made using qmk
+- uses pi pico
+- simple matrix design
+- easy to recreate
+
 ## Schematics
 Matrix: <br>
 ![Matrix](images/matrix.png) <br>
