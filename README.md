@@ -31,7 +31,7 @@ A: I live in India and, Robu might be expensive at first but actually it is alot
 ## CAD 
 Case with PCB: <br>
 ![PCB CASE](images/assembly.png) <br>
-
+![PCB CASE](images/a2top.png) <br>
 ```
 Q: Why did i not make a top?
 A: You might think because i dont have skills, although i am quite good in CAD, However I have built many CAD projects and shipped them. I just wanted this to be a topless keyboard
