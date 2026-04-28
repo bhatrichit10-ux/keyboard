@@ -43,13 +43,12 @@ Case with PCB: <br>
 I made the firmware using QMK. And compiled it in `firmware` directory
 
 
-#BOM
+# BOM
 
 |Name                                                          |Purpose         |Quantity|Total Cost (USD)|Distributor   |
 |--------------------------------------------------------------|----------------|--------|----------------|--------------|
+|RPI Pico                                                      |The brain       |1       |4.47            |RObu.in       |
 |Diodes ( Pack of 70)                                          |Matrix Working  |7       |1.16            |Stacks KB     |
 |PCB                                                           |Connect stuff   |1       |50.50           |Robu.in       |
 |Counter Strike Printstream Decal Collection Cherry PBT Keycaps|Keycaps         |1       |18.07           |Curiosity Caps|
 |Akko Botany Switch (Pack of 45)                               |Main Keyswicthes|2       |23.38           |Stacks KB     |
-
-
